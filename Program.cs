@@ -7,7 +7,10 @@ namespace AddressBookProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address Book Program");
-            AddressBookMain obj =new AddressBookMain();
+            Console.WriteLine("To add an address enter 1:");
+            int number=Convert.ToInt32(Console.ReadLine());
+            CheckEntryValue.Check(number);
+            
         }
     }
 
