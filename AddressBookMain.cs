@@ -26,6 +26,7 @@ namespace AddressBookProgram
             zip = 208002;
             phone_number = 8376009635;
             email = "shrey2510@gmail.com";
+            Console.WriteLine("Hi " + firstName + " " + lastName + " your details have been saved");
         }
         public AddressBookMain(string name,string lastName,string address,string city,string state,int zip,long contact,string email)
         {
@@ -37,6 +38,7 @@ namespace AddressBookProgram
             zip=zip;
             phone_number=contact;
             email=email;
+            Console.WriteLine("Hi " + firstName + " " + lastName + " your details have been saved");
         }
     }
 }
