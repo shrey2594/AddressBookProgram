@@ -36,7 +36,14 @@ namespace AddressBookProgram
             email = Console.ReadLine();
             Console.WriteLine();
             AddressBookMain obj = new AddressBookMain(firstName,lastName,address,city,state,zip,phone_number,email);
-            
+        }
+
+        public static void edit()
+        {
+            Console.WriteLine("Enter new first name:");
+            string firstName=Console.ReadLine();
+            AddressBookMain obj= new AddressBookMain();
+            obj.NameEdit(firstName);
         }
     }
 }
