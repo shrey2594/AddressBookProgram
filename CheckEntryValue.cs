@@ -12,11 +12,11 @@ namespace AddressBookProgram
         {
             if (number ==1 )
             {
-                AddressBookMain obj = new AddressBookMain();
+                ReadValues.read();
             }
-            else
+            else if (number ==2 )
             {
-
+                ReadValues.edit();
             }
         }
     }
