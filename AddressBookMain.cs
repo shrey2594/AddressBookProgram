@@ -40,5 +40,12 @@ namespace AddressBookProgram
             email=email;
             Console.WriteLine("Hi " + firstName + " " + lastName + " your details have been saved");
         }
+
+        public void NameEdit(string name)
+        {
+            Console.WriteLine("Hi " + firstName + " " + lastName + " your details have been saved");
+            this.firstName = name;
+            Console.WriteLine("Hi " + firstName + " " + lastName + " your details have been saved");
+        }
     }
 }
